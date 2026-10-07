@@ -12,11 +12,11 @@ Se `$1` è il **progetto**, in qualunque forma («progetto», «project», «il 
 2. Creare la cartella con quattro file.
    - `index.html`: pagina in italiano con `<meta charset="utf-8">`, il titolo dell'attività, lo script di p5.js `https://cdn.jsdelivr.net/npm/p5@2.3.3/lib/p5.min.js`, il proprio `style.css` e `sketch.js`.
    - `style.css`: solo l'essenziale, cioè margini a zero e la tela come blocco.
-   - `sketch.js`: in cima, come commenti, l'obiettivo dell'attività e l'elenco dei vincoli ricavati dalle specifiche; poi le variabili dei parametri con un commento ciascuna.
+   - `sketch.js`: in cima, come commenti, l'obiettivo dell'attività e l'elenco dei vincoli ricavati dalle specifiche.
    - `README.md`: il titolo con il nome dell'attività, l'immagine dell'anteprima scritta come `![Anteprima del lavoro](preview.png)`, la riga con l'indirizzo pubblico del lavoro ricavato dal remoto Git, e una riga che dica che `preview.png` va creata quando il lavoro è pronto, perché serve all'anteprima nella pagina delle revisioni del corso. GitHub mostra il README sotto l'elenco dei file della cartella: finché l'immagine non c'è si vede il segno di un'immagine mancante, ed è il modo più semplice per accorgersene.
-3. Scrivere in `sketch.js` uno **sketch di base funzionante**: la soluzione più diretta e più ovvia delle specifiche, quella che verrebbe a chiunque le passi a un modello linguistico. Codice minimo, nessuna variazione personale.
+3. Scrivere in `sketch.js` un **contenitore vuoto**: `setup()` con la tela delle dimensioni richieste dalle specifiche, e `draw()` vuota. Niente disegno e niente soluzione: lo sketch si riempie a poco a poco con quello che decide lo studente.
 4. Aggiungere la voce all'elenco nell'`index.html` della radice, togliendo la riga «Ancora nessun lavoro pubblicato» se è ancora lì.
-5. Chiudere dicendo in modo esplicito che quello è il punto di partenza comune a tutti e non il lavoro da consegnare. Poi chiedere **come dovrebbe funzionare**, non che aspetto dovrebbe avere: quale regola segue il disegno, che cosa cambia da un fotogramma all'altro, quali numeri decidono il risultato.
+5. Chiudere con due cose sole. Come vedere lo sketch: il pulsante **Go Live** nella barra in basso a destra di Visual Studio Code, aggiunto dall'estensione Live Server, apre nel browser l'elenco dei lavori, da cui si entra nella cartella. Poi **una domanda sola**: da che cosa vuole partire. Incoraggiare a rispondere con un procedimento (quali forme, quale regola, che cosa si ripete o cambia) più che con la descrizione del risultato finale.
 
 **Non proporre un elenco di direzioni da scegliere**: l'idea deve venire da lui, altrimenti l'esercitazione diventa una scelta fra opzioni preconfezionate e i lavori si somigliano tutti.
 

@@ -10,9 +10,17 @@
     "webfetch": "allow",
     "bash": {
       "*": "ask",
+      "ls*": "allow",
+      "pwd": "allow",
+      "cat *": "allow",
+      "head *": "allow",
+      "grep *": "allow",
+      "wc *": "allow",
+      "mkdir *": "allow",
       "git status*": "allow",
       "git diff*": "allow",
       "git log*": "allow",
+      "git remote*": "allow",
       "git add *": "allow",
       "git commit *": "allow"
     }

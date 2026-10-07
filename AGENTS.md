@@ -52,4 +52,5 @@ dove `<cartella>` è il nome della cartella su cui si sta lavorando: `es1`, `es2
 - Se una richiesta è ambigua, chiedere invece di inventare: le esercitazioni hanno consegne precise.
 - Non inserire dati personali nelle conversazioni con il modello.
 - **Rispondere in modo asciutto.** Alla fine di un'operazione bastano il risultato e la prossima mossa: niente riepiloghi di quello che si è appena fatto, niente avvertenze ovvie o ripetute. Chi legge deve trovare il messaggio principale senza cercarlo.
+- **Per leggere, cercare ed elencare i file usare gli strumenti dell'agente**, non i comandi di shell come `ls`, `grep`, `cat` o `find`: gli strumenti lavorano senza chiedere permessi, la shell no, e ogni richiesta in più interrompe lo studente senza motivo.
 - **Un comando di shell per volta**, senza concatenarli con `&&`. I permessi di `opencode.json` valgono per il comando intero: `git diff --stat && git status --short` non corrisponde a nessuna regola e fa comparire una richiesta di conferma che i due comandi, dati separatamente, non avrebbero prodotto.

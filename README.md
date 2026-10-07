@@ -2,14 +2,16 @@
 
 Repository personale per le esercitazioni del corso di **Tecnologie e applicazioni digitali**, Accademia di Belle Arti di Frosinone.
 
-Le consegne, con obiettivi, vincoli e modalità di realizzazione, si trovano nella sezione [Attività](https://codestesie.it/aa2627/tad/attivita/) del sito del corso: sono quelle il riferimento, e vanno lette per intero prima di iniziare.
+Le specifiche precise, con obiettivi, vincoli e modalità di realizzazione, si trovano nella sezione [Attività](https://codestesie.it/aa2627/tad/attivita/) del sito del corso.
 
 ## Prima di iniziare
 
-Servono **Visual Studio Code**, **Git**, **OpenCode** e due estensioni, OpenCode e Live Server. L'installazione, passo per passo e con le immagini, sta in due guide del sito del corso, una per sistema:
+Servono **Visual Studio Code**, **Git**, **OpenCode** e due estensioni, OpenCode e Live Server. L'installazione, passo per passo e con le soluzioni di eventuali problemi, si trova in due guide del sito del corso, una per sistema:
 
 - [Visual Studio Code e OpenCode su Windows](https://codestesie.it/guide/vscode-opencode-windows/)
 - [Visual Studio Code e OpenCode su macOS](https://codestesie.it/guide/vscode-opencode-macos/)
+
+Serve anche un **profilo su [github.com](https://github.com/signup)**. Il nome utente comparirà negli indirizzi dei propri lavori, quindi conviene sceglierlo breve e leggibile. Registrandosi con la posta dell'Accademia si può poi chiedere il [GitHub Student Developer Pack](https://education.github.com/pack), che dà gratuitamente il piano Pro.
 
 Al primo avvio l'agente sceglie da sé un modello gratuito, e per cambiarlo si scrive `/models` nella conversazione e si sceglie dall'elenco; per usare modelli a pagamento occorre prima collegare un account con `/connect`.
 
@@ -18,31 +20,29 @@ Le scorciatoie da tastiera indicate qui e più avanti sono quelle di Windows: su
 
 ## Come si prepara il repository
 
-Una volta sola, all'inizio del corso. I primi tre passaggi si fanno **sul sito di GitHub**, con il browser; il quarto comincia lì e finisce in **Visual Studio Code**, dove si svolge anche l'ultimo.
+Una volta sola, all'inizio del corso. I primi due passaggi si fanno **sul sito di GitHub**, con il browser; il terzo comincia lì e finisce in **Visual Studio Code**, dove si svolge anche l'ultimo.
 
-1. **Creare un profilo su [github.com](https://github.com/signup)**, se non se ne ha già uno. \
-   Il nome utente scelto comparirà negli indirizzi dei propri lavori, quindi conviene sceglierlo breve e leggibile. Registrandosi con la posta dell'Accademia si può poi chiedere il [GitHub Student Developer Pack](https://education.github.com/pack), che dà gratuitamente il piano Pro.
-2. **Creare la propria copia del modello**, dalla pagina del repository del corso: \
+1. **Creare la propria copia del modello**, dalla pagina del [modello del corso](https://github.com/belluscio-abafr/aa2627-tad-es-modello), che è quella in cui si legge questo testo la prima volta: \
    *Use this template › Create a new repository* \
    Dare alla copia il nome `aa2627-tad-es`, lasciarla *Public* e premere *Create repository*. È un repository indipendente e resta sul proprio profilo.
-3. **Attivare GitHub Pages**, che pubblica i lavori in rete: \
-   *Settings › Pages › Source: Deploy from a branch › main › / (root) › Save* \
-   Dopo un minuto circa, in cima alla stessa pagina compare l'indirizzo pubblico del proprio sito, «Your site is live at…»: è la conferma che il passaggio è riuscito, e conviene aprirlo per vedere l'elenco dei lavori, ancora vuoto.
-4. **Scaricare il repository sul proprio computer.** \
+2. **Attivare GitHub Pages**, che pubblica i lavori in rete: \
+   *Settings* (in alto a destra) *› Pages › Source: Deploy from a branch › main › / (root) › Save* \
+   Dopo un minuto circa, in cima alla stessa pagina dovrebbe comparire l'indirizzo pubblico del proprio sito, «Your site is live at…».
+3. **Scaricare il repository sul proprio computer.** \
    Su GitHub si copia l'indirizzo del repository appena creato: \
-   pulsante verde *Code › HTTPS ›* icona della copia. \
-   In Visual Studio Code: \
+   *Code* (sezione) *› Code* (pulsante verde) *› HTTPS ›* icona della copia. \
+   In Visual Studio Code si clona il repository: \
    *Visualizza › Riquadro comandi* (`Ctrl+Shift+P`) *› Git: Clona* \
-   Si incolla l'indirizzo, si indica la cartella dove mettere il repository e, alla domanda se aprirlo, si risponde di sì.
-5. **Personalizzare il repository con il proprio nome**, con il comando `/inizio`. \
-   La chat di OpenCode, che al primo avvio è chiusa, si apre con `Ctrl+Esc` o con la piccola icona di OpenCode in alto a destra nel pannello attivo: `/inizio` si scrive nel campo editabile centrale. \
-   Il comando scrive il nome nelle pagine e l'indirizzo pubblico in questo file, così gli indirizzi che si leggono qui sono già i propri.
+   Si incolla l'indirizzo copiato, si indica la cartella dove mettere il repository e, alla domanda se aprirlo, si risponde di sì.
+4. **Personalizzare il repository con il proprio nome**, con il comando `/inizio`. \
+   La chat di OpenCode, che al primo avvio è chiusa, si apre con la piccola icona di OpenCode in alto a destra nel pannello attivo: `/inizio` si scrive nel campo editabile centrale. \
+   Il comando scrive il nome nelle pagine e l'indirizzo pubblico in questo file, così gli indirizzi che si leggono qui sono già i propri. Se OpenCode chiede il permesso di eseguire qualche comando, è normale: per i comandi del corso si può rispondere di sì.
 
 ## Come si lavora
 
 Da qui in avanti si lavora **in Visual Studio Code**, nella cartella scaricata sul proprio computer: sul sito di GitHub non c'è più niente da fare a mano.
 
-1. **Creare la cartella dell'esercitazione**, con il comando `/crea es1`.
+1. **Creare la cartella dell'esercitazione**, con il comando `/crea es1`, cambiando `es1` con la sigla dell'esercitazione: `es2`, `es3` e così via. Vale anche per gli altri comandi qui sotto.
 2. **Scrivere il codice** in `sketch.js`, dentro quella cartella.
 3. **Vedere il risultato nel browser**: \
    tasto destro su `index.html` della cartella *› Open with Live Server*
@@ -63,7 +63,7 @@ Le cartelle si chiamano `es1`, `es2` e così via: sono gli stessi nomi delle con
 Il primo passaggio si fa **in Visual Studio Code**, il secondo **nel browser**.
 
 1. **Pubblicare il lavoro e ottenerne l'indirizzo**, con il comando `/consegna es1`. \
-   Controlla che la cartella sia completa, fa commit e sincronizzazione, e mostra l'indirizzo pubblico da segnalare.
+   Controlla che la cartella sia completa; se è tutto a posto, fa il commit e la sincronizzazione, e mostra l'indirizzo pubblico da segnalare, altrimenti chiede la conferma per proseguire comunque.
 2. **Compilare il [modulo delle consegne](https://docs.google.com/forms/d/e/1FAIpQLSe3wKbZj7PfOUy5IzgyU52e81S9aKXqTJ7kRxIzhPrDiBH10Q/viewform?usp=pp_url&entry.1318995029=TAD+2026/27)**: \
    l'esercitazione, cognome e nome, l'indirizzo appena mostrato dal comando ed eventuali note.
 
