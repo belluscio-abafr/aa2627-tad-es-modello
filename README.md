@@ -6,7 +6,7 @@ Le specifiche precise, con obiettivi, vincoli e modalità di realizzazione, si t
 
 ## Prima di iniziare
 
-Servono **Visual Studio Code**, **Git**, **OpenCode** e due estensioni, OpenCode e Live Server. L'installazione, passo per passo e con le soluzioni di eventuali problemi, si trova in due guide del sito del corso, una per sistema:
+Servono **Visual Studio Code**, **Git**, **OpenCode** e due estensioni, OpenCode e Live Server. L'installazione, passo per passo e con le soluzioni di eventuali problemi, è descritta in due guide del sito del corso, una per sistema:
 
 - [Visual Studio Code e OpenCode su Windows](https://codestesie.it/guide/vscode-opencode-windows/)
 - [Visual Studio Code e OpenCode su macOS](https://codestesie.it/guide/vscode-opencode-macos/)
