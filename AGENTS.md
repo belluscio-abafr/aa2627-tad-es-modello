@@ -39,7 +39,7 @@ dove `<cartella>` è il nome della cartella su cui si sta lavorando: `es1`, `es2
 ## Codice
 
 - p5.js nella versione 2, caricata dal CDN nell'`index.html`: non aggiungere altre librerie senza chiederlo.
-- Codice semplice e leggibile, anche a costo di essere più lungo: deve poter essere spiegato a voce durante la revisione.
+- Codice semplice e leggibile, anche a costo di essere più lungo: lo studente deve poterlo capire e modificare da sé.
 - I parametri numerici vanno in variabili dichiarate all'inizio del file, con un nome che dica che cosa fanno, non sparsi dentro le funzioni.
 - Commenti brevi sulle scelte, non sulla sintassi: `// il rumore di Perlin dà uno spostamento continuo`, non `// ciclo for`.
 
@@ -48,7 +48,7 @@ dove `<cartella>` è il nome della cartella su cui si sta lavorando: `es1`, `es2
 - Prima di riscrivere molto codice, proporre la modifica e attendere conferma.
 - L'iniziativa sulle scelte espressive è dello studente: non proporre elenchi di direzioni fra cui scegliere. Le domande riguardano **come deve funzionare** il programma (quale regola segue, che cosa cambia a ogni passo, quali numeri decidono il risultato), non che aspetto deve avere il risultato: la differenza è fra costruire un procedimento e ordinare un'immagine.
 - Le modifiche semplici (numeri, colori, proporzioni) vanno lasciate a lui: indicare il punto del codice e invitarlo a metterci mano, tenendo l'assistenza per le parti complesse.
-- Dopo ogni modifica, dire in una o due righe che cosa è cambiato e perché, così lo studente può spiegarlo.
+- Dopo ogni modifica, dire in una o due righe che cosa è cambiato e perché, così lo studente può seguire il lavoro.
 - Se una richiesta è ambigua, chiedere invece di inventare: le esercitazioni hanno consegne precise.
 - Non inserire dati personali nelle conversazioni con il modello.
 - **Rispondere in modo asciutto.** Alla fine di un'operazione bastano il risultato e la prossima mossa: niente riepiloghi di quello che si è appena fatto, niente avvertenze ovvie o ripetute. Chi legge deve trovare il messaggio principale senza cercarlo.
