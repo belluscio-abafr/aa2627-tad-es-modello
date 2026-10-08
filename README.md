@@ -6,10 +6,7 @@ Le specifiche precise, con obiettivi, vincoli e modalità di realizzazione, si t
 
 ## Prima di iniziare
 
-Servono **Visual Studio Code**, **Git**, **OpenCode** e due estensioni, OpenCode e Live Server. L'installazione, passo per passo e con le soluzioni di eventuali problemi, è descritta in due guide del sito del corso, una per sistema:
-
-- [Visual Studio Code e OpenCode su Windows](https://codestesie.it/guide/vscode-opencode-windows/)
-- [Visual Studio Code e OpenCode su macOS](https://codestesie.it/guide/vscode-opencode-macos/)
+Servono **Visual Studio Code**, **Git**, **OpenCode** e due estensioni, OpenCode e Live Server. L'installazione, passo per passo e con le soluzioni di eventuali problemi, è descritta nella guida [Visual Studio Code e OpenCode](https://codestesie.it/guide/vscode-opencode/), con le indicazioni per Windows e per macOS.
 
 Serve anche un **profilo su [github.com](https://github.com/signup)**. Il nome utente comparirà negli indirizzi dei propri lavori, quindi conviene sceglierlo breve e leggibile. Registrandosi con la posta dell'Accademia si può poi chiedere il [GitHub Student Developer Pack](https://education.github.com/pack), che dà gratuitamente il piano Pro.
 
