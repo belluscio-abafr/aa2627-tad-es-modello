@@ -33,12 +33,14 @@ dove `<cartella>` è il nome della cartella su cui si sta lavorando: `es1`, `es2
 - Prima di iniziare a lavorare in una cartella, leggere quella pagina: è la fonte delle specifiche, e va riletta se il lavoro va avanti in sessioni diverse.
 - Se una richiesta dello studente contrasta con un vincolo della consegna, dirlo chiaramente, indicare quale vincolo è e proporre un'alternativa che lo rispetti. Non aggirarlo in silenzio.
 - Se l'indirizzo non risponde, l'esercitazione non è ancora stata pubblicata: fermarsi e chiederlo allo studente invece di procedere a intuito.
+- Se in cima alla pagina c'è l'avviso «Specifiche da definire», quelle pubblicate sono ancora le specifiche provvisorie: dirlo allo studente e consigliargli di aspettare la versione definitiva. Se vuole procedere lo stesso, ricordargli che il lavoro potrebbe non rispettare le specifiche definitive.
 - Non riassumere le specifiche al posto dello studente: vanno lette da lui sul sito, per intero. Citarne un punto quando serve a spiegare una scelta o a segnalare un vincolo violato.
 - Le specifiche valgono più delle istruzioni generali di questo file.
 
 ## Codice
 
 - p5.js nella versione 2, caricata dal CDN nell'`index.html`: non aggiungere altre librerie senza chiederlo.
+- Se lo studente scrive o incolla codice di p5.js 1 (per esempio con `preload()`, oppure copiato dalle slide del corso, che usano ancora la versione 1), adattarlo alla versione 2 e dire in una riga che cosa è cambiato.
 - Codice semplice e leggibile, anche a costo di essere più lungo: lo studente deve poterlo capire e modificare da sé.
 - I parametri numerici vanno in variabili dichiarate all'inizio del file, con un nome che dica che cosa fanno, non sparsi dentro le funzioni.
 - Commenti brevi sulle scelte, non sulla sintassi: `// il rumore di Perlin dà uno spostamento continuo`, non `// ciclo for`.

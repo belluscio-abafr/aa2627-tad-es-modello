@@ -8,7 +8,7 @@ Prima di tutto il nome della cartella. Se `$1` è una variante riconoscibile di 
 
 Se `$1` è il **progetto**, in qualunque forma («progetto», «project», «il progetto finale»), fermarsi senza creare niente: il progetto va in un repository che lo studente crea da sé, con il nome che preferisce, e le istruzioni stanno nella sua consegna, `https://codestesie.it/aa2627/tad/attivita/progetto/`.
 
-1. Leggere le specifiche su `https://codestesie.it/aa2627/tad/attivita/<cartella>/`. Se l'indirizzo non risponde, avvisare e fermarsi: l'attività non è ancora stata pubblicata.
+1. Leggere le specifiche su `https://codestesie.it/aa2627/tad/attivita/<cartella>/`. Se l'indirizzo non risponde, avvisare e fermarsi: l'attività non è ancora stata pubblicata. Se in cima alla pagina c'è l'avviso «Specifiche da definire», dirlo e chiedere se aspettare la versione definitiva: la cartella si crea solo se lo studente conferma.
 2. Creare la cartella con quattro file.
    - `index.html`: pagina in italiano con `<meta charset="utf-8">`, il titolo dell'attività, lo script di p5.js `https://cdn.jsdelivr.net/npm/p5@2.3.3/lib/p5.min.js`, il proprio `style.css` e `sketch.js`.
    - `style.css`: solo l'essenziale, cioè margini a zero e la tela come blocco.
